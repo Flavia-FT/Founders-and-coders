@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./HobbyPage.css">
+    <title>Home page</title>
+</head>
+<body>
+     <!--nabar start-->
+     <nav class="navbar">
+
+        <ul class="nav-links">
+          <div class="menu">
+              <li><a href="https://pudders.github.io/Course-Project-11-new/index.html">Home</a></li>
+            <li><a href="#Art Movements">Art Movements</a></li>
+            <li class="services">
+              <a href="#Artist">Artists<i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown">
+                <li><a href="#Artist">Frida Kahlo </a></li>
+                <li><a href="#Artist">Claude Monet</a></li>
+                <li><a href="#Artist">John Constable</a></li>
+              </ul>
+            </li>
+            <li><a href="#footer">Contact</a></li>
+
+          </div>
+        </ul>
+      </nav>
+       <!--nabar end-->   
+       
+
+  <div class="space">
+    <h1> My favourite artists and their work</h1>
+    <h2 class="first"> Paintings I love </h2>
+  </div> 
+
+  <!--carousel start-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active image">
+        <img src="./Frida painting.jpeg" class="image_size" class="d-block w-100" id="center" alt_text="Kahlo">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Frida Kahlo</h5>
+          <p class="carousel p">Self-Portrait with Thorn Neck­lace and Humming­bird</p>
+        </div>
+      </div>
+      <div class="carousel-item image">
+        <img src="./Monet painting.jpg" class="image_size" id="center" class="d-block w-100" alt_text="Monet">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Claude Monet</h5>
+          <p lass="carousel p">Houses of Parliament</p>
+        </div>
+      </div>
+      <div class="carousel-item image">
+        <img src="./Constable painting.jpeg" class="image_size"class="d-block w-100" id="center" alt_text="Constable">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>John Constable</h5>
+          <p class="carousel p">Salisbury Cathedral from the Meadows</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+  <!--End carousel-->
+<div>
+    <script>
+        var date = new Date();
+        var current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
+        document.getElementById("p1").innerHTML = current_time;
+    </script>
+  <br>
+</div>
+  <!--Art Movements start-->
+
+    <div id="Art Movements">
+      <h2>Art Movements</h2>
+      <p>Explore three influential movements in art</p>
+    </div>
+    <div class="row1">
+      <div class="column1"><img class="collection-image" src="./Surrealism.jpeg" alt_text="Surrealism" id="center"/>
+        <h2 class="block-link-content"><a href="https://en.wikipedia.org/wiki/Surrealism" target="_blank">Surrealism</a></h2> 
+        <p>Surrealism originated in the late 1910s and early '20s as a literary movement that experimented with a new mode of expression called automatic writing, or automatism, which sought to release the unbridled imagination of the subconscious.</p>
+      </div>
+     <div class="column1"> <img class="collection-image" src="./Impressionism.jpeg" alt_text="Impressionism" id="center"/>
+      <h2 class="block-link-content"><a href="https://en.wikipedia.org/wiki/Impressionism" target="_blank">Impressionism</a></h2>
+      <p>Impressionism describes a style of painting developed in France during the mid-to-late 19th century; characterizations of the style include small, visible brushstrokes that offer the bare impression of form, unblended color and an emphasis on the accurate depiction of natural light.</p>
+    </div>
+      <div class="column1"><img class="collection-image" src="./Romanticism.avif" alt_text="Romanticism" id="center"/>
+        <h2 class="block-link-content"><a href="https://en.wikipedia.org/wiki/Romanticism" target="_blank">Romanticism</a></h2> 
+        <p>Romantic art focused on emotions, feelings, and moods of all kinds including spirituality, imagination, mystery, and fervor. The subject matter varied widely including landscapes, religion, revolution, and peaceful beauty.</p>
+      </div>
+    </div>
+    </div>
+
+   <!--Art Movements end-->
+   <div>
+    <br>
+  </div>
+    <!--Artist start-->
+
+    <div id="Artist">
+    <h2>Artists</h2>
+    <p> Get to know my favoiurite artists</p>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img class="artist" src="https://media.vogue.fr/photos/5c2f474e14f2f3cf7b8e34f4/master/pass/004_frida_kahlo_brows_vogue_int_getty_images_jpg_7867.jpg" alt_text="Frida" id="center"/>
+        <h2 class="block-link-content">
+         <a href="https://en.wikipedia.org/wiki/Frida_Kahlo" target="_blank">Frida Kahlo</a>    
+      </h2>
+ <p>
+        <ul class="bullet">
+            <li style="list-style-type:disc">Born July 6, 1907, Coyoacán, Mex. —died July 13, 1954, Coyoacán</li>
+            <li  style="list-style-type:disc">Mexican painter best known for her uncompromising and brilliantly colored self-portraits that deal with such themes as identity, the human body, and death.</li>
+          </ul>   
+  </p> 
+      </div>
+      <div class="column">
+        <img class="artist" src="./Monet portrait.jpeg" alt_text="Claude" id="center"/>
+        <h2 class="block-link-content">
+         <a href="https://en.wikipedia.org/wiki/Claude_Monet" target="_blank">Claude Monet</a>
+      </h2>
+  <p>
+        <ul class="bullet">
+            <li style="list-style-type:disc">Born November 14, 1840 – died December 5, 1926</li>
+            <li  style="list-style-type:disc">Founder of French impressionist painting, and the most consistent and prolific practitioner of the movement's philosophy of expressing one's perceptions before nature, especially as applied to plein-air.</li>
+          </ul>   
+   </p>
+      </div>
+      <div class="column">
+        <img  class="artist" src="./Constable portrait.webp" alt_text="John" id="center"/>
+        <h2 class="block-link-content">
+          <a href="https://en.wikipedia.org/wiki/John_Constable" target="_blank">John Constable</a>
+      </h2>
+   <p>
+        <ul class="bullet"> 
+            <li style="list-style-type:disc">Born June 11, 1776, East Bergholt, Suffolk, England—died March 31, 1837, London)</li>
+            <li  style="list-style-type:disc"> Famous for his landscapes, which are mostly of the Suffolk countryside, where he was born and lived. He made many open-air sketches, using these as a basis for his large exhibition paintings, which were worked up in the studio.</li>
+          </ul>   
+    </p>
+      </div>
+    </div>
+  </div>
+
+  <!---artist end -->
+  <div>
+  <div>
+    <br>
+  </div>
+  <div>
+    <p id="p1"></p>
+    <script>
+      var date = new Date();
+      var current_date = date.getDate()+"/"+(date.getMonth()+1)+"/"+ date.getFullYear();
+      document.getElementById("p1").innerHTML = current_date;
+    </script>
+  </div>
+
+       <!--footer start-->
+       <footer ID="footer" class="footer">
+        <a href="https://twitter.com" target="_blank">
+            <span class='social-icon'><i class="fa fa-twitter"></i></span>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <span class='social-icon'><i class="fa fa-facebook-f"></i></span>
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <span class='social-icon'><i class="fa fa-instagram"></i></span>
+          </a>
+      </footer>
+<!---footer end-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>
