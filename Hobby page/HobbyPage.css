@@ -121,7 +121,7 @@ width:auto
     text-overflow:clip;
     width: 100%;
     display: none;/*change*/
-    margin-left: -10px;/*change*/
+    margin-left:-10px;/*change*/
     list-style: none;/*change*/
     text-align: center;
     
@@ -138,7 +138,7 @@ width:auto
     text-align: center;
     font-size: 100%;
     width:100%;
-    margin-left: -25px;/*change*/
+    margin-left: 0px;/*change*/
     font-size:large;
    
    }
