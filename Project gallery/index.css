@@ -26,33 +26,6 @@
     row-gap: 30px;
     column-gap: 50px;
   }
- @mixin flexbox() {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  @mixin flex($values) {
-    -webkit-box-flex: $values;
-    -moz-box-flex:  $values;
-    -webkit-flex:  $values;
-    -ms-flex:  $values;
-    flex:  $values;
-  }
-  
-  @mixin order($val) {
-    -webkit-box-ordinal-group: $val;  
-    -moz-box-ordinal-group: $val;     
-    -ms-flex-order: $val;     
-    -webkit-order: $val;  
-    order: $val;
-  }
-  
-  .wrapper {
-    @include flexbox();
-  }
   .project{
         order: 3; /* default is 0 */
         flex-grow: 10; /* default 0 */
